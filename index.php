@@ -13,5 +13,3 @@
 <!-- footer -->
 <?php require("./views/mybase/footer.php"); ?>
 <!-- footer end -->
-
-      

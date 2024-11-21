@@ -11,20 +11,22 @@
 <title>Login</title>
 </head>
 <body>
-<div class="form-box">
-<form class="form">
-    <span class="title">Sign up</span>
-    <span class="subtitle">Enter Your Email and Password To Login.</span>
-    <div class="form-container">
-			<input type="email" class="input" placeholder="Email">
-			<input type="password" class="input" placeholder="Password">
-    </div>
-    <button>Sign up</button>
-</form>
-<div class="form-section">
-  <p> Don't Have an account? <a href="/project_1/auth/reg.php">Register Here</a> </p>
+<div class="navbar">
+  <div class="form-box">
+    <form class="form">
+      <span class="title">Sign up</span>
+      <span class="subtitle">Enter Your Email and Password To Login.</span>
+      <div class="form-container">
+	  	  	<input type="email" class="input" placeholder="Email">
+	  		  <input type="password" class="input" placeholder="Password">
+       </div>
+     <button>Sign up</button>
+    </form>
+  <div class="form-section">
+  <p> Don't Have an account? <a href="./reg.php">Register Here</a> </p>
+  </div>
 </div>
-</div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>

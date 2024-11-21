@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="../asset/CSS/login.css">
-<title>Login</title>
+<title>Reg</title>
 </head>
 <body>
 <div class="form-box">
@@ -23,10 +23,9 @@
     <button>Sign up</button>
 </form>
 <div class="form-section">
-  <p> Already Have an account? <a href="/project_1/auth/login.php">Log In</a> </p>
+  <p> Already Have an account? <a href="./login.php">Log In</a> </p>
 </div>
 </div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>

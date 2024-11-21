@@ -17,22 +17,33 @@
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
-            <td><a href="http://localhost/college_project/views/pages/stu_edit.php">Edit</a></td>
+            <td>
+              <a href="http://localhost/college_project/views/pages/stu_edit.php">
+                <button class="btn btn-outline-primary" type="submit">Edit</button>
+              </a>
+            </td>
           </tr>
           <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
             <td>@fat</td>
-            <td><a href="http://localhost/college_project/views/pages/stu_edit.php">Edit</a></td>
+            <td>
+              <a href="http://localhost/college_project/views/pages/stu_edit.php">
+                <button class="btn btn-outline-primary" type="submit">Edit</button>
+              </a>
+            </td>
           </tr>
           <tr>
             <th scope="row">3</th>
             <td colspan="2">Larry the Bird</td>
             <td>@twitter</td>
-            <td><a href="http://localhost/college_project/views/pages/stu_edit.php">Edit</a></td>
+            <td>
+              <a href="http://localhost/college_project/views/pages/stu_edit.php">
+                <button class="btn btn-outline-primary" type="submit">Edit</button>
+              </a>
+            </td>
           </tr>
         </tbody>
-      </table>
-
+    </table>
 <?php require("../mybase/header.php")?>
