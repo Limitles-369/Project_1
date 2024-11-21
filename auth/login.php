@@ -22,7 +22,7 @@
     <button>Sign up</button>
 </form>
 <div class="form-section">
-  <p> Don't Have an account? <a href="./reg.html">Register Here</a> </p>
+  <p> Don't Have an account? <a href="/project_1/auth/reg.php">Register Here</a> </p>
 </div>
 </div>
 

@@ -28,7 +28,7 @@
           </li>
         </ul>
         <div class="d-flex">
-            <a href="./auth/login.html">
+            <a href="/project_1/auth/login.php">
               <button class="btn btn-outline-light" type="submit">Log In</button>
             </a>
           </div>

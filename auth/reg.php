@@ -23,7 +23,7 @@
     <button>Sign up</button>
 </form>
 <div class="form-section">
-  <p> Already Have an account? <a href="./login.html">Log In</a> </p>
+  <p> Already Have an account? <a href="/project_1/auth/login.php">Log In</a> </p>
 </div>
 </div>
 
