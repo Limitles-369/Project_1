@@ -11,22 +11,27 @@
 <title>Reg</title>
 </head>
 <body>
-<div class="form-box">
-<form class="form">
-    <span class="title">Sign In</span>
-    <span class="subtitle">Create a free account with your email.</span>
-    <div class="form-container">
-      <input type="text" class="input" placeholder="Full Name">
-			<input type="email" class="input" placeholder="Email">
-			<input type="password" class="input" placeholder="Password">
+  <div class="form-box">
+    <form class="form" action="/project_1/api/reg_api.php" method="POST">
+      <span class="title">Register Here</span>
+      <span class="subtitle">Create a free account with your email.</span>
+
+      <div class="form-container">
+        <input type="text" class="input" placeholder="Full Name" name="name" required>
+        <input type="email" class="input" placeholder="Email" name="email" required>
+        <input type="password" class="input" placeholder="Password" name="password" required>
+        <input type="password" class="input" placeholder="Confirm Password" name="confirm_password" required>
+
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+    <div class="form-section">
+      <p> Already have an account? <a href="./login.php">Log In</a> </p>
     </div>
-    <button>Sign up</button>
-</form>
-<div class="form-section">
-  <p> Already Have an account? <a href="./login.php">Log In</a> </p>
-</div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>
